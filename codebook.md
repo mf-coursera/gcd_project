@@ -8,10 +8,11 @@ Data Format
 
 The data is in a long form (tall and skinny) with 4 variables.  Each row represents the average of feature variable for a given subject and activity.  For example:
  
-"Subject","Activity","Feature","Average_Value"
-1,"LAYING","tBodyAcc-mean()-X",0.22159824394
+"Subject"|"Activity"|"Feature"|"Average_Value"
+_________|__________|_________|_______________|
+1|"LAYING"|"tBodyAcc-mean()-X"|0.22159824394
 
-For the above row, 0.22159824394 is the average tBodyAcc-mean()-X value for subject #1 carrying out the laying activity.
+For the above row, *0.22159824394* is the average *tBodyAcc-mean()-X* value for subject #1 carrying out the laying activity.
 
 There are 11,880 rows and 1 header row in the tidy data file.  There are 33 unique mean and 33 unique standard deviations.
 11,880 rows = (33 mean values + 33 standard deviation values) * 30 subjects * 6 activities / subject 
