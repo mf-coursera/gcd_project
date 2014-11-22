@@ -9,7 +9,7 @@ Data Format
 The data is in a long form (tall and skinny) with 4 variables.  Each row represents the average of feature variable for a given subject and activity.  For example:
  
 "Subject"|"Activity"|"Feature"|"Average_Value"
-_________|__________|_________|_______________|
+---------|----------|---------|---------------
 1|"LAYING"|"tBodyAcc-mean()-X"|0.22159824394
 
 For the above row, *0.22159824394* is the average *tBodyAcc-mean()-X* value for subject #1 carrying out the laying activity.
