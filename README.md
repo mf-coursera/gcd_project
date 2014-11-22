@@ -23,14 +23,12 @@ The run_analysis.R script carries out the following steps:
 The script reads in the raw data from the following files into two sets of data frames, representing the training data set and test data set.
 
 File|File Path|Description
-
+----|---------|-----------
 Activity Labels | "./UCI HAR Dataset/activity_labels.txt | Links the class labels with their activity name.
 Features | "./UCI HAR Dataset/features.txt | List of all features
-
 Training Data  | "./UCI HAR Dataset/train/X_train.txt | Training data set of observations containing 561 variables (features) of data. 
 Training Activity  | "./UCI HAR Dataset/train/y_train.txt |  Each row identifies the activity that was performed for each observation (window sample).  The activity is represented by the activity class label. Its range is from 1 to 6. Each row in this file corresponds to the equivalent row in the Training data file.
 Training Subjects  | "./UCI HAR Dataset/train/subject_train.txt | Each row identifies the subject ID who performed the activity for each observation (window sample). Its range is from 1 to 30.  Each row in this file corresponds to the equivalent row in the Training data file.
-
 Test Data  | ./UCI HAR Dataset/test/X_test.txt | Test data set containing 561 variables (features) of data. 
 Test Activity  |./UCI HAR Dataset/test/y_test.txt | Each row identifies the activity that was performed for each observation (window sample).  The activity is represented by the activity class label. Its range is from 1 to 6. Each row in this file corresponds to the equivalent row in the Test data file.
 Test Subjects  | ./UCI HAR Dataset/test/subject_test.txt | Each row identifies the subject ID who performed the activity for each observation (window sample). Its range is from 1 to 30.  Each row in this file corresponds to the equivalent row in the Test data file. 
